@@ -79,11 +79,9 @@
 		A058C38E1B94C94C009DA352 /* Versionamento */ = {
 			isa = PBXGroup;
 			children = (
-				A058C3911B94C94C009DA352 /* AppDelegate.swift */,
-				A058C3931B94C94C009DA352 /* MasterViewController.swift */,
-				A058C3951B94C94C009DA352 /* DetailViewController.swift */,
-				A058C3971B94C94C009DA352 /* Main.storyboard */,
-				A058C39A1B94C94C009DA352 /* Images.xcassets */,
+				A058C4151B94D3CD009DA352 /* Delegate */,
+				A058C4131B94D358009DA352 /* View Controllers */,
+				A058C4141B94D3BA009DA352 /* Resources */,
 				A058C39C1B94C94C009DA352 /* LaunchScreen.xib */,
 				A058C38F1B94C94C009DA352 /* Supporting Files */,
 			);
@@ -113,6 +111,32 @@
 				A058C3A81B94C94C009DA352 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A058C4131B94D358009DA352 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A058C3931B94C94C009DA352 /* MasterViewController.swift */,
+				A058C3951B94C94C009DA352 /* DetailViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		A058C4141B94D3BA009DA352 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A058C3971B94C94C009DA352 /* Main.storyboard */,
+				A058C39A1B94C94C009DA352 /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A058C4151B94D3CD009DA352 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				A058C3911B94C94C009DA352 /* AppDelegate.swift */,
+			);
+			name = Delegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
